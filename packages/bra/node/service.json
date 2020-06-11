@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "validateDocument": {
+      "path": "/_v/checkout-ui/bra/validate-document/:document",
+      "public": true
+    }
+  }
+}
