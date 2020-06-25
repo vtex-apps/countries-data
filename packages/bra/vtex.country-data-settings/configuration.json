@@ -140,7 +140,7 @@
       "label": "numberOption",
       "maxLength": 750,
       "required": true,
-      "autoComplete": "nope"
+      "autoComplete": "off"
     },
     "complement": {
       "label": "complement",
