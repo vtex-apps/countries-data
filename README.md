@@ -1,13 +1,13 @@
 # Countries Data
 
-Monorepo containing the configuration apps for each country. These apps configures
+Monorepo containing the configuration apps for each country. These apps configure
 the [`vtex.country-data-settings`](https://github.com/vtex-apps/country-data-settings) service app,
 which is currently being used to power Checkout's profile and shipping forms.
 
 ## Adding a new country
 
 To add a new country configuration app, use the script `./scripts/create-country-app.js`. The syntax
-supported by this is script is the following:
+supported by this script is the following:
 
 ```sh
 # here you can supply multiple countries if needed
@@ -19,4 +19,4 @@ which will be used to create the app name and the folder inside `./packages`.
 
 After running the script, you must then fill the configuration for that country inside
 `./packages/[country-code]/vtex.country-data-settings/configuration.json`. You can take a look
-at how the other countries filled this configuration and go from there.
+at how this was done for other countries and go from there.
