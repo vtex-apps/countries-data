@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "country-data-bra",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "title": "Brazil Data for Places Components",
   "builders": {
     "vtex.country-data-settings": "0.x"
