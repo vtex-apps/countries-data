@@ -161,7 +161,7 @@
       "mask": "99999-999",
       "pattern": "^(\\d){5}-?(\\d){3}$",
       "label": "postalCode",
-      "forgottenURL": "http://www.buscacep.correios.com.br/servicos/dnec/index.do"
+      "forgottenURL": "https://buscacepinter.correios.com.br/app/endereco/index.php"
     }
   },
   "display": {
