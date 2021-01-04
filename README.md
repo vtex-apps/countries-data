@@ -29,6 +29,20 @@ After running the script, you must then fill the configuration for that country 
 `./packages/[country-code]/vtex.country-data-settings/configuration.json`. You can take a look
 at how this was done for other countries and go from there.
 
+## Releasing a new version
+
+Currently, VTEX IO CI/CD bots don't work on monorepos, so the release must be made manually.
+
+To release a new version, you must make sure to:
+
+1. update the version and date on `CHANGELOG.md`
+2. update the version field on `manifest.json`
+3. create a tagged release commit with `git tag -a "vtex.country-data-XXX@X.X.X" -m "vtex.country-data-XXX@X.X.X"`
+4. update your branch with `git push --tags origin your-branch`
+5. merge the PR after it's approved
+
+You may check an example by running `git show c7bbc4d`, which is a tagged release commit.
+
 <!-- DOCS-IGNORE:start -->
 
 ## Contributors ✨
