@@ -40,6 +40,13 @@
         }
       ]
     ],
+    "brief": [
+      [
+        { "name": "street" },
+        { "name": "number", "delimiter": ", " },
+        { "name": "neighborhood", "delimiter": " - " }
+      ]
+    ],
     "compact": [
       [
         {
