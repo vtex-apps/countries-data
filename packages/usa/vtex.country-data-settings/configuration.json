@@ -269,6 +269,13 @@
         }
       ]
     ],
+    "brief": [
+      [
+        { "name": "number" },
+        { "name": "street", "delimiter": ", " },
+        { "name": "neighborhood", "delimiter": " - " }
+      ]
+    ],
     "compact": [
       [
         {
