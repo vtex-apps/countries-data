@@ -232,7 +232,7 @@
       "maxLength": 100
     },
     "street": {
-      "label": "addressLine1",
+      "label": "street",
       "required": true
     },
     "number": {
@@ -242,7 +242,7 @@
       "autoComplete": "off"
     },
     "complement": {
-      "label": "addressLine2",
+      "label": "complement",
       "maxLength": 750
     },
     "reference": {
