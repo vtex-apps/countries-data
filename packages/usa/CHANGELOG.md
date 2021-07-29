@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2021-07-29### Added
+- `corporateDocument` configuration with fields `abbreviation`, `name` and `mask`.
+
 ## [0.1.1] - 2021-07-05
 ### Changed
 - Updates address's `street` and `complement` labels.
