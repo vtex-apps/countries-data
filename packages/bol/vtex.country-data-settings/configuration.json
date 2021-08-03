@@ -493,5 +493,10 @@
     "countryCode": "591",
     "mask": "9 999-9999",
     "pattern": "/^(?:(?:(?:\\+|)591)|)(?:0|)[23467]\\d{7}$/"
+  },
+  "corporateDocument": {
+    "name": "NNúmero de Identificación Tributaria",
+    "abbreviation": "NIT",
+    "mask": "999999999999"
   }
 }
