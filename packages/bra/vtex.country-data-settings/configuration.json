@@ -248,7 +248,7 @@
     "mask": "(99) 9 9999-9999",
     "pattern": "^(?:(?:(?:\\+|)(?:55|)|))(?:0|)(?:(?:(?:1[1-9]|2[12478]|3[1-8]|6[1-9]|7[134579]|8[1-9]|9[1-9]|4[1-9]|5[1-5])(?:9\\d{8}|\\d{8})))$"
   },
-  "corporateDocument": {
+  "legalPersonTaxId": {
     "name": "Cadastro Nacional da Pessoa Jurídica",
     "abbreviation": "CNPJ",
     "mask": "99.999.999/9999-99"

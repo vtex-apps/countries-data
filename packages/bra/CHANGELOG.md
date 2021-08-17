@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.3.0] - 2021-07-27
 ### Added
-- `corporateDocument` configuration with fields `abbreviation`, `name` and `mask`.
+- `legalPersonTaxId` configuration with fields `abbreviation`, `name` and `mask`.
 
 ## [0.2.1] - 2021-01-04
 ### Fixed
