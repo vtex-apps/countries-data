@@ -232,11 +232,11 @@
       "maxLength": 100
     },
     "street": {
-      "label": "street",
+      "label": "streetRoadAvenue",
       "required": true
     },
     "number": {
-      "label": "number",
+      "label": "numberOption",
       "maxLength": 750,
       "hidden": true,
       "autoComplete": "off"
@@ -307,10 +307,6 @@
       [
         {
           "name": "number"
-        },
-        {
-          "delimiter": ", ",
-          "name": "city"
         },
         {
           "delimiter": ", ",
