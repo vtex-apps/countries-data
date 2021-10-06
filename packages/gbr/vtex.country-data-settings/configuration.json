@@ -1,0 +1,215 @@
+{
+  "countryISO": "GBR",
+  "addressFields": {
+    "country": {
+      "label": "country",
+      "hidden": true,
+      "maxLength": 100
+    },
+    "neighborhood": {
+      "label": "neighborhood",
+      "hidden": true,
+      "maxLength": 100
+    },
+    "street": {
+      "label": "street",
+      "required": true
+    },
+    "number": {
+      "label": "number",
+      "maxLength": 750,
+      "hidden": true,
+      "autoComplete": "off"
+    },
+    "complement": {
+      "label": "complement",
+      "maxLength": 750
+    },
+    "reference": {
+      "label": "reference",
+      "hidden": true,
+      "maxLength": 750
+    },
+    "receiverName": {
+      "label": "receiverName",
+      "elementName": "receiver",
+      "maxLength": 750,
+      "required": true
+    },
+    "postalCode": {
+      "label": "postalCode",
+      "forgottenURL": "https://www.royalmail.com/find-a-postcode"
+    }
+  },
+  "display": {
+    "minimal": [
+      [
+        {
+          "name": "postalCode"
+        }
+      ]
+    ],
+    "compact": [
+      [
+        {
+          "name": "complement"
+        },
+        {
+          "delimiter": " ",
+          "name": "street"
+        },
+        {
+          "delimiter": ", ",
+          "name": "city"
+        },
+        {
+          "delimiter": " - ",
+          "name": "postalCode"
+        }
+      ]
+    ],
+    "extended": [
+      [
+        {
+          "name": "receiverName"
+        }
+      ],
+      [
+        {
+          "name": "complement"
+        },
+        {
+          "delimiter": " ",
+          "name": "street"
+        },
+        {
+          "delimiter": ", ",
+          "name": "city"
+        },
+        {
+          "delimiter": " - ",
+          "name": "postalCode"
+        }
+      ]
+    ]
+  },
+  "locationSelect": {
+    "countryData": {
+      "Bedfordshire": ["Luton, Bedford, Dunstable, Leighton Buzzard"],
+      "Berkshire": [
+        "Reading, Slough, Bracknell, Maidenhead, Wokingham, Newbury, Woodley, Windsor, Thatcham"
+      ],
+      "Bristol": ["Bristol"],
+      "Buckinghamshire": ["Milton Keynes, High Wycombe, Aylesbury"],
+      "Cambridgeshire": ["Peterborough, Cambridge, Wisbech, St Neots"],
+      "Cheshire": [
+        "Warrington, Chester, Crewe, Runcorn, Widnes, Ellesmere Port, Macclesfield, Northwich, Wilmslow, Winsford, Congleton"
+      ],
+      "City of London": ["City of London"],
+      "Cornwall": ["Redruth, Falmouth, St Austell"],
+      "Cumbria": ["Carlisle, Barrow-in-Furness, Kendal, Workington"],
+      "Derbyshire": ["Derby, Chesterfield, Swadlincote, Ilkeston, Long Eaton"],
+      "Devon": ["Plymouth, Exeter, Torquay, Paignton, Exmouth"],
+      "Dorset": ["Bournemouth, Poole, Weymouth, Christchurch, Ferndow"],
+      "Durham": [
+        "Darlington, Hartlepool, Stockton-on-Tees, Durham, Billingham, Peterlee, Newton Aycliffe"
+      ],
+      "East Riding of Yorkshire": ["Hull, Bridlington, Beverley"],
+      "East Sussex": [
+        "Brighton and Hove, Eastbourne, Hastings, Bexhill-on-Sea"
+      ],
+      "Essex": [
+        "Southend-on-Sea, Colchester, Chelmsford, Basildon, Harlow, Grays, Brentwood, Clackton-on-Sea, Braintree, Canvey Island, Billericay, Wickford, Loughton, Stanford-le-Hope, Witham"
+      ],
+      "Gloucestershire": ["Gloucester, Cheltenham, Filton, Stroud, Yate"],
+      "Greater London": ["Greater London"],
+      "Greater Manchester": [
+        "Manchester, Bolton, Sale, Rochdale, Stockport, Salford, Wigan, Oldham, Bury, Altrincham, Leigh, Ashton-under-Lyne, Middleton, Urmston, Eccles, Denton, Chadderton, Romiley, Hyde, Radcliffe, Ashton-in-Makerfield, Heywood, Farnworth, Stretford, Stalybridge, Swinton"
+      ],
+      "Hampshire": [
+        "Southampton, Portsmouth, Basingstoke, Eastleigh, Gosport, Farnborough, Andover, Aldershot, Horndean, Winchester, Havant, Fareham, Fleet, Totton, Hedge End"
+      ],
+      "Herefordshire": ["Hereford"],
+      "Hertfordshire": [
+        "Watford, Hemel Hempstead, Stevenage, St Albans, Welwyn Garden City, Cheshunt, Hoddesdon, Bishop's Stortford, Hatfield, Borehamwood, Hitchin, Letchworth, Harpenden, Hertford, Bushey"
+      ],
+      "Isle of Wight": ["Ryde, Newport"],
+      "Kent": [
+        "Maidstone, Gillingham, Dartford, Chatham, Ashford, Rochester, Margate, Royal Tunbridge Wells, Gravesend, Canterbury, Folkestone, Sittingbourne, Dover, Ramsgate, Tonbridge, Herne Bay, Whitstable, Deal, Sevenoaks, Northfleet"
+      ],
+      "Lancashire": [
+        "Blackpool, Blackburn, Preston, Burnley, Bamber Bridge, Lancaster, Lytham St Anne's, Leyland, Chorley, Fulwood, Accrington, Skelmersdale, Morecambe, Nelson, Darwen, Fleetwood"
+      ],
+      "Leicestershire": [
+        "Leicester, Loughborough, Hinckley, Coalville, Melton Mowbray"
+      ],
+      "Lincolnshire": [
+        "Lincoln, Grimsby, Scunthorpe, Grantham, Boston, Cleethorpes, Spalding"
+      ],
+      "Merseyside": [
+        "Liverpool, Birkenhead, St Helens, Southport, Wallasey, Bebington, Bootle, Crosby, Kirkby, Prescot, Heswall, Maghull"
+      ],
+      "Norfolk": ["Norwich, King's Lynn, Great Yarmouth"],
+      "North Yorkshire": [
+        "Middlesbrough, York, Harrogate, Scarborough, Redcar"
+      ],
+      "Northamptonshire": [
+        "Northampton, Kettering, Corby, Wellingborough, Rushden, Daventry"
+      ],
+      "Northumberland": ["Blyth, Cramlington, Ashington"],
+      "Nottinghamshire": [
+        "Nottingham, Mansfield, Beeston, Carlton, Sutton-in-Ashfield, West Bridgford, Worksop, Arnold, Newark-on-Trent, Hucknall, Kirkby-in-Ashfield"
+      ],
+      "Oxfordshire": [
+        "Oxford, Banbury, Abingdon-on-Thames, Bicester, Witney, Didcot"
+      ],
+      "Rutland": ["Oakham"],
+      "Shropshire": ["Telford, Shrewsbury"],
+      "Somerset": ["Bath, Weston-super-Mare, Taunton, Yeovil, Bridgwater"],
+      "South Yorkshire": [
+        "Sheffield, Doncaster, Rotherham, Barnsley, Wath-upon-Dearne, Bentley"
+      ],
+      "Staffordshire": [
+        "Stoke-on-Trent, Tamworth, Newcastle-under-Lyme, Burton-upon-Trent, Stafford, Lichfield, Cannock, Burntwood, Kidsgrove"
+      ],
+      "Suffolk": ["Ipswich, Lowestoft, Bury St Edmunds, Haverhill"],
+      "Surrey": [
+        "Woking, Guildford, Walton-on-Thames, Ewell, Esher, Camberley, Redhill, Leatherhead, Epsom, Weybridge, Ashford, Egham, Staines, Farnham"
+      ],
+      "Tyne and Wear": [
+        "Newcastle, Sunderland, Gateshead, South Shields, Tynemouth, Washington, Wallsend, Jarrow, Longbenton, Whitley Bay"
+      ],
+      "Warwickshire": [
+        "Nuneaton, Rugby, Royal Leamington Spa, Warwick, Bedworth, Stratford-upon-Avon"
+      ],
+      "West Midlands": [
+        "Birmingham, Coventry, Wolverhampton, Solihull, Sutton Coldfield, Dudley, West Bromich, Walsall, Stourbridge,  Halesowen, Willenhall, Kingswinford, Smethwick, Bloxwich, Tipton, Aldridge, Rowley Regis, Brierley Hill, Sedgley, Bilston, Wednesfield"
+      ],
+      "West Sussex": [
+        "Worthing, Crawley, Bognor Regis, Littlehampton, Shoreham-by-Sea, Horsham, Haywards Heath, Burgess Hill, East Grinstead, Chichester"
+      ],
+      "West Yorkshire": [
+        "Leeds, Bradford, Huddersfield, Wakefield, Halifax, Batley, Dewsbury, Keighley, Castleford, Brighouse, Pudsey, Moreley, Pontefract, Shipley"
+      ],
+      "Wiltshire": ["Swindon, Salisbury, Trowbridge, Chippenham"],
+      "Worcestershire": [
+        "Worcester, Redditch, Kidderminster, Malvern, Bromsgrove"
+      ]
+    },
+    "fields": [
+      {
+        "name": "state",
+        "label": "county"
+      },
+      {
+        "name": "city",
+        "label": "city"
+      }
+    ]
+  },
+  "phone": {
+    "countryCode": "44",
+    "mask": "(99)-99-9999-9999",
+    "pattern": "/^(?:(?:(?:\\+|)(?:44|)|))(?:0|)(?:\\d{2}\\)?[\\s-]?\\d{4}[\\s-]?\\d{4}|\\d{3}\\)?[\\s-]?\\d{3}[\\s-]?\\d{3,4}|\\d{4}\\)?[\\s-]?(?:\\d{5}|\\d{3}[\\s-]?\\d{3})|\\d{5}\\)?[\\s-]?\\d{4,5}|8(?:00[\\s-]?11[\\s-]?11|45[\\s-]?46[\\s-]?4\\d))(?:(?:[\\s-]?(?:x|ext\\.?\\s?|\\#)\\d+)?)$/"
+  }
+}
